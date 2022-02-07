@@ -12,7 +12,7 @@ import { MessageService } from '../message.service';
 export class HeroDetailComponent implements OnInit {
 
 
-  @Input() hero?: Hero;
+  hero: Hero | undefined;
 
 
   constructor(
